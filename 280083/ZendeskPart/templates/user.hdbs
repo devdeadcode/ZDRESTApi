@@ -1,0 +1,9 @@
+<data class="records">
+	{{#user}}
+    <div>
+      {{#each Attributes}}
+      <p>{{Value}}</p>
+      {{/each}}
+    </div>
+	{{/user}}
+</data>
